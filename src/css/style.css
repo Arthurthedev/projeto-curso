@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    background-color: rgb(42, 75, 109);
+    background-image: url('../images/transparent_music_background.png');
+    background-repeat: no-repeat;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: white;
+    height: 1024px;
 
 }
 header{
@@ -46,107 +48,73 @@ main .sub-titulo{
     font-size: 20px;
     width: 525px;
 }
-main .container{
-    max-width: 1100px;
-    max-height: 600px;
-    display: grid;
-    grid-template-areas: "bateria teclado violao canto baixo percussao"
-                         "bateria audio teoria canto sopro cordas";
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 200px 100px;
+
+a{
+    text-decoration: none;
 }
-main .container .curso img{
+
+.curso img{
     width: 100px;
 }
-main .container .bateria{
+
+.container{
+    max-width: 1000px;
+    display: grid;
+    grid-template-areas: "bateria teclado violao baixo"
+                         "bateria percussao canto audio"
+                         "bateria teoria sopro cordas";
+    grid-template-columns: 400px 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 40px;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.curso{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 30px;      
+    border: 1px solid #2D85FC;
+    border-radius: 10px;
+   
+}
+.curso p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.bateria{
     grid-area: bateria;
-    background-color: red;
-    border: 1px solid #2D85FC;
-    border-radius: 5px;
 }
-
-
-main .container .teclado{
+.curso .bateria-img{
+    width: 200px;
+}
+.teclado{
     grid-area: teclado;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2D85FC;
-    border-radius: 5px;
 }
-main .container .violao{
+.violao{
     grid-area: violao;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2D85FC;
-    border-radius: 5px;
 }
-main .container .canto{
-    grid-area: canto;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2D85FC;
-    border-radius: 5px;
-}
-main .container .baixo{
+.baixo{
     grid-area: baixo;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2D85FC;
-    border-radius: 5px;
 }
-main .container .percussao{
+.percussao{
     grid-area: percussao;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2D85FC;
-    border-radius: 5px;
 }
-main .container .audio{
+.canto{
+    grid-area: canto;
+}
+.audio{
     grid-area: audio;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2D85FC;
-    border-radius: 5px;
 }
-main .container .teoria{
+.teoria{
     grid-area: teoria;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2D85FC;
-    border-radius: 5px;
 }
-main .container .sopro{
+.sopro{
     grid-area: sopro;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2D85FC;
-    border-radius: 5px;
 }
-main .container .cordas{
+.cordas{
     grid-area: cordas;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #2D85FC;
-    border-radius: 5px;
 }
