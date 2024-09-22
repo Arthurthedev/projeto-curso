@@ -20,7 +20,7 @@ header .logo{
 header nav .botoes{
     display: flex;
     margin-top: 50px;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 header nav li{
     margin-right: 20px;
