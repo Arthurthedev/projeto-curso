@@ -14,13 +14,13 @@ header{
     margin-bottom: 70px;
 }
 header .logo{
-    margin-left: 200px;
+    margin-left: 170px;
     margin-top: 13px;
 }
 header nav .botoes{
     display: flex;
     margin-top: 50px;
-    margin-right: 150px;
+    width: 800px;
 }
 header nav li{
     margin-right: 20px;
@@ -32,6 +32,8 @@ header nav li .matricule-se{
     background-color: rgb(253, 32, 74);
     padding: 25px 45px 25px 45px;
     border-radius: 7px;
+    width: 500px;
+    height: 500px;
 }
 main{
     margin-left: 150px;
