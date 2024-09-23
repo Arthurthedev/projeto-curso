@@ -24,7 +24,7 @@ header .logo{
 header nav .botoes{
     display: flex;
     margin-top: 50px;
-}
+}   
 header nav li{
     margin-right: 20px;
     letter-spacing: 2px;
@@ -63,15 +63,13 @@ a{
 }
 
 .container{
-    max-width: 1300px;
+    max-width: 1500px;
     display: grid;
-    grid-template-areas: "bateria teclado violao baixo"
-                         "bateria percussao canto audio"
-                         "bateria teoria sopro cordas";
-    grid-template-columns: 400px 200px 200px 200px;
-    grid-template-rows: 150px 150px 150px;
+    grid-template-areas: "bateria teclado violao canto baixo percussao"
+                         "bateria audio teoria canto sopro cordas";
+    grid-template-columns: repeat(6, 220px); 
+    grid-template-rows: repeat(2, 200px);
     gap: 40px;
-    margin-left: 120px;
     margin-top: 50px;
     margin-bottom: 200px;
 }
@@ -81,12 +79,13 @@ a{
     justify-content: center;
     align-items: center;
     padding: 30px;      
-    border: 1px solid #2D85FC;
     border-radius: 10px;
+    background-color: rgb(177, 156, 217, 0.9);
    
 }
 .curso p{
     color: white;
+    font-weight: bold;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -123,3 +122,4 @@ a{
 .cordas{
     grid-area: cordas;
 }
+
