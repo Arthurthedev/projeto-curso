@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-html{
-    height: 1024px;
-}
 body{
     background-image: url('../images/transparent_music_background.png');
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: white;
+    height: 1024px;
+    
 }
 header{
     display: flex;
