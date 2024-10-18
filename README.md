@@ -16,5 +16,4 @@
 - Para todos os tipos de dispositivos.
 
 ## Dificuldades deste projeto
-- Tive muitas dificuldades nesse projeto, principalmente por se tratar do meu primeiro projeto solo envolvendo uma estrutura em Grid.
-- Tive que fazer e refazer muitas vezes até atingir um resultado satisfatório, porem acredito que cheguei lá.
+- Enfrentei várias dificuldades neste projeto, especialmente por ser o meu primeiro trabalho solo utilizando a estrutura em Grid. Precisei refazer diversas vezes até alcançar um resultado satisfatório, mas acredito que, no final, consegui
