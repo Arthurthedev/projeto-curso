@@ -1,4 +1,8 @@
-# Advice Generator App
+# Conceito de UI: Landing Page para Escola de Música
+
+<div align="center">
+    <img src="./src/images/projetofinalizado.png" alt="imagem final do projeto" >
+</div>
 
 ## Sobre o Projeto
 
